@@ -33,6 +33,7 @@ module.exports = function(grunt) {
         }
     });
 
+    //Test to Master.
     // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bump');
