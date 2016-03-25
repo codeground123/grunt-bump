@@ -33,7 +33,9 @@ module.exports = function(grunt) {
         }
     });
 
-    // Load the plugin that provides the "uglify" task.
+
+var res = 0;
+    // Load the plugin that provides the "uglify" task. from local branch
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bump');
 
